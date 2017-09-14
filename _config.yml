@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://wjxzju.github.io
+url: https://wjxzju.github.io
 date_format: "ordinal"
 title: Will's Blog
 subtitle: "打码改变人生"
