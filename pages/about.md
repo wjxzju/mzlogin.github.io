@@ -8,6 +8,6 @@ menu: 关于
 permalink: /about/
 ---
 
-Will Wu, from Shanghai Jiao Tong University.
+Will Wu, from Tencent.
 
 
