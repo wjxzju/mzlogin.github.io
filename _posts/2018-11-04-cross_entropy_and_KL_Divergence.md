@@ -1,17 +1,22 @@
 ---
 layout: post
 title: cross entropy and KL divergence 
-categories: machine learning
+categories: [Machine Learning, ]
 description:  cross entropy and KL divergence 
 keywords: cross entropy, KL divergence
 ---
 
 
 ## 交叉熵
-熵的本质就是信息量的期望，在本科通信原理课程中有讲述，随机变量的不确定性越大，熵也就越大，计算公式为$$ H(X) = - \sum_{x} p(x) log p(x) $$
+熵的本质就是信息量的期望，在本科通信原理课程中有讲述，随机变量的不确定性越大，熵也就越大，计算公式为   
+
+$$ H(X) = - \sum_{x} p(x) log p(x) $$
+
 
 交叉熵是通过非真实分布`q`来表示真实分布`p`的平均编码长度， 计算公式为
+
 $$ H(p,q) = - \sum_i p(i)  log q(i) $$ 
+
 根据吉布斯不等式有$ H(p,q) \ge H(p)$恒成立， 当`q`取真实分布`p`时，等式成立。
 
 ## KL散度
